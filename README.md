@@ -28,7 +28,7 @@ This project is a simple client-server application built using C and socket prog
 #### 1. SERVER SIDE : 
 #### Run the terminal in Server Computer
 a. Compile the server code:
-```gcc server.c -o server```
+```gcc tcp_file_server.c -o server```
 
 b. Run the server:
 ```./server```
@@ -36,7 +36,7 @@ b. Run the server:
 #### 2. CLIENT SIDE : 
 #### Run the terminal in Client computer or if Server computer and Client is same computer(for testing purpose) run a fresh terminal 
 a. Compile the client code:
-```gcc client.c -o client```
+```gcc tcp_file_client.c -o client```
 
 b. Run the client:
 ```./client```
